@@ -1,6 +1,9 @@
+'use strict'
+
+var chai = require('chai');
 var expect = require('expect');
 
-var findMissing = require('../app/library.js').findMissing;
+var myApp = require('../app/library.js');
 
 describe('Binary Search to traverse an ordered list, effectively', function() {
   describe('Populate the arrays with valid content', function() {
